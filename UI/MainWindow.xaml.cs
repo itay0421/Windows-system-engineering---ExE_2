@@ -35,9 +35,9 @@ namespace UI
             List<Flower> list = bl.getFlowersWithTheWord(myInput);
             foreach(Flower f in list)
             {    
-                listBox.Items.Add(f.Area);
-                listBox.Items.Add(f.Color);
-                listBox.Items.Add(f.Description);
+                listBox.Items.Add("Location: " + f.Area);
+                listBox.Items.Add("Color: " + f.Color);
+                listBox.Items.Add("Description: " + f.Description);
                 listBox.Items.Add("------------");
             }
    
