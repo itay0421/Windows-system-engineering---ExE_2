@@ -8,6 +8,6 @@ namespace DAL
 {
     public class Class_dal_save_at_list : IDAL
     {
-        //idal function
+        //idal f unction
     }
 }
