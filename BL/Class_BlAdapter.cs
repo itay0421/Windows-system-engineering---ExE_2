@@ -11,9 +11,5 @@ namespace BL
     {
         DAL.IDAL dal = DAL.FactoryDal.getDal();
 
-
-
-        
-
     }
 }
