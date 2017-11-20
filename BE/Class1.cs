@@ -8,9 +8,9 @@ namespace BE
 {
     public class Flower
     {
-        String description;
-        String color;
-        String area;
+        string description;
+        string color;
+        string area;
 
         public Flower(string description, string color, string area)
         {
