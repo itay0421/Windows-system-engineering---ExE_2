@@ -8,5 +8,6 @@ namespace DAL
 {
     public interface IDAL
     {
+        //name of function
     }
 }
