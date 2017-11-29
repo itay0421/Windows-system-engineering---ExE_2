@@ -8,5 +8,6 @@ namespace DAL
 {
     public interface IDAL
     {
+        List<BE.Flower> getFlowersWithTheWord(string key);
     }
 }

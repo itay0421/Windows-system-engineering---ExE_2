@@ -33,7 +33,7 @@ namespace DAL
         public List<BE.Flower> getFlowersWithTheWord(string key)
         {
             List<BE.Flower> tmpFlower = new List<BE.Flower>();
-            foreach(var flower in myDB.Flowers1)
+            foreach (var flower in myDB.Flowers1)
             {
                 if (flower.Area.Contains(key) || flower.Color.Contains(key) || flower.Description.Contains(key))
                     tmpFlower.Add(flower);

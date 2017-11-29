@@ -5,13 +5,16 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:UI"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
-    <Grid>
-        <TextBox Name="input" HorizontalAlignment="Left" Height="23" Margin="220,56,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <Button Content="Search" HorizontalAlignment="Left" Margin="400,56,0,0" VerticalAlignment="Top" Width="79"
+        Title="MainWindow" Height="493.6" Width="774.6">
+    <Grid Margin="0,0,-273.6,-171.2">
+        <Grid.Background>
+            <ImageBrush ImageSource="C:\Users\itay0\documents\visual studio 2017\Projects\EXE2\UI\img\img142250.jpg" Stretch="UniformToFill"/>
+        </Grid.Background>
+        <TextBox Name="input" HorizontalAlignment="Left" Height="23" Margin="506,205,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button Content="Search" HorizontalAlignment="Left" Margin="651,205,0,0" VerticalAlignment="Top" Width="79"
                 Click="Button_Click" Height="23"/>
-        <ListBox x:Name="listBox"  HorizontalAlignment="Left" Height="176" Margin="48,100,0,0" VerticalAlignment="Top" Width="431"/>
-        <TextBlock HorizontalAlignment="Left" Margin="48,56,0,0" TextWrapping="Wrap" Text="enter word to search:" VerticalAlignment="Top" Width="126"/>
+        <ListBox x:Name="listBox"  HorizontalAlignment="Left" Height="176" Margin="248,254,0,0" VerticalAlignment="Top" Width="482"/>
+        <TextBlock HorizontalAlignment="Left" Margin="248,206,0,0" TextWrapping="Wrap" Text="enter word to search:" VerticalAlignment="Top" Width="228" Foreground="#FFFAF9F9" FontSize="20"/>
 
     </Grid>
 </Window>
