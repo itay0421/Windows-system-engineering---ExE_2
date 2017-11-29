@@ -7,6 +7,11 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        
+        <TextBox Name="input" HorizontalAlignment="Left" Height="23" Margin="220,56,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button Content="Search" HorizontalAlignment="Left" Margin="400,56,0,0" VerticalAlignment="Top" Width="79"
+                Click="Button_Click" Height="23"/>
+        <ListBox x:Name="listBox"  HorizontalAlignment="Left" Height="176" Margin="48,100,0,0" VerticalAlignment="Top" Width="431"/>
+        <TextBlock HorizontalAlignment="Left" Margin="48,56,0,0" TextWrapping="Wrap" Text="enter word to search:" VerticalAlignment="Top" Width="126"/>
+
     </Grid>
 </Window>

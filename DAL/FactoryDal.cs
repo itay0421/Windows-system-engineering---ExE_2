@@ -10,7 +10,7 @@ namespace DAL
     {
         public static IDAL getDal()
         {
-            return new Class_dal_save_at_list();
+            return new MyDAL();
         }
     }
 }

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BE;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,6 +24,36 @@ namespace UI
         public MainWindow()
         {
             InitializeComponent();
+
+           
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+
+            
+
+            listBox.Items.Clear();
+            BL.MyBL bl = new BL.MyBL();
+            string myInput = input.Text;
+            List<Flower> list = bl.getFlowersWithTheWord(myInput);
+            foreach(Flower f in list)
+            {    
+                listBox.Items.Add("Location: " + f.Area);
+                listBox.Items.Add("Color: " + f.Color);
+                listBox.Items.Add("Description: " + f.Description);
+                
+
+
+                Image im = new Image();
+                im.Width = 150;
+                im.Height = 150;
+
+                im.Source = new BitmapImage(new Uri(f.Image));
+                listBox.Items.Add(im);
+                listBox.Items.Add("------------");
+            }
+   
         }
     }
 }
