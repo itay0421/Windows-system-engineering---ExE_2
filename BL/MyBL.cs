@@ -10,7 +10,7 @@ namespace BL
     public class MyBL
     {
         DAL.IDAL dal = BlAdapter.Dal;
-    
+
         public List<Flower> getFlowersWithTheWord(string key)
         {
             return dal.getFlowersWithTheWord(key);

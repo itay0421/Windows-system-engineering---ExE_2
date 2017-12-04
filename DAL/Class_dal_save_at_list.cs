@@ -19,6 +19,7 @@ namespace DAL
 
         public Class_dal_save_at_list()
         {
+           
         }
 
     }
